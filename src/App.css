@@ -9,3 +9,7 @@ iframe.code-sandbox {
 .clickable {
   cursor: pointer;
 }
+
+.text-link {
+  color: #00bceb;
+}

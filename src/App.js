@@ -5,6 +5,8 @@ import { VanillaJS } from './Slides/VanillaJS'
 import { JQuery } from './Slides/JQuery'
 import { ReactJS } from './Slides/ReactJS'
 import { ReactRedux } from './Slides/ReactRedux'
+import { ReduxFundamentals } from './Slides/ReduxFundamentals'
+import { Resources } from './Slides/Resources'
 import './App.css'
 
 export function App() {
@@ -44,6 +46,8 @@ export function App() {
       <JQuery />
       <ReactJS />
       <ReactRedux />
+      <ReduxFundamentals />
+      <Resources />
     </Deck>
   )
 }
