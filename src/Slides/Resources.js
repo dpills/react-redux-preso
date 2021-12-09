@@ -1,5 +1,5 @@
 import React from 'react'
-import { Heading, Slide, UnorderedList, ListItem, CodeSpan } from 'spectacle'
+import { Heading, Slide, UnorderedList, ListItem } from 'spectacle'
 import { useDispatch } from 'react-redux'
 import { sectionActivate } from '../navigateSlice'
 
