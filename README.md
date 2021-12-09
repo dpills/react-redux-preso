@@ -1,6 +1,7 @@
 # ✨ React + Redux ✨
 
 Presentation on modern frontend development.
+<https://dpills.github.io/react-redux-preso>
 
 ## Available Scripts
 
