@@ -78,6 +78,16 @@ export const Resources = () => {
             Yarn - Package Manager
           </a>
         </ListItem>
+        <ListItem fontSize={textFontSize}>
+          <a
+            href='https://formidable.com/open-source/spectacle'
+            target='_blank'
+            rel='noreferrer'
+            className='text-link'
+          >
+            Spectacle - React Presentation Library
+          </a>
+        </ListItem>
       </UnorderedList>
     </Slide>
   )
