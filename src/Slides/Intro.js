@@ -9,9 +9,8 @@ export const Intro = () => {
     <Slide backgroundColor='background'>
       <FlexBox height='100%' flexDirection='column'>
         <Heading margin='0px' fontSize='120px'>
-          <img src={reactLogo} height={100} className='App-logo' alt='redux' />{' '}
-          React + Redux{' '}
-          <img src={reduxLogo} height={100} className='App-logo' alt='redux' />
+          <img src={reactLogo} height={100} alt='react' /> React + Redux{' '}
+          <img src={reduxLogo} height={100} alt='redux' />
         </Heading>
         <Heading margin='0px' fontSize='h2'>
           <i>Modern FrontEnd Development</i>

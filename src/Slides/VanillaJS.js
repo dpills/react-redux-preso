@@ -1,10 +1,22 @@
 import React from 'react'
 import { Heading, Slide, Notes } from 'spectacle'
+import { useDispatch } from 'react-redux'
+import { sectionActivate } from '../navigateSlice'
 
 export const VanillaJS = () => {
+  const dispatch = useDispatch()
+
   return (
     <Slide backgroundColor='background'>
-      <Heading>Vanilla Javascript 🍦</Heading>
+      <Heading>
+        Vanilla Javascript{' '}
+        <span
+          className='clickable'
+          onClick={() => dispatch(sectionActivate('Vanilla Javascript 🍦'))}
+        >
+          🍦
+        </span>
+      </Heading>
       <iframe
         src='https://codesandbox.io/embed/vanilla-js-counter-b91w9?fontsize=14&hidenavigation=1&theme=dark'
         className='code-sandbox'

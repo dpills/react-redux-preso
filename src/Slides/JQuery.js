@@ -1,10 +1,22 @@
 import React from 'react'
 import { Heading, Slide, Notes } from 'spectacle'
+import { useDispatch } from 'react-redux'
+import { sectionActivate } from '../navigateSlice'
 
 export const JQuery = () => {
+  const dispatch = useDispatch()
+
   return (
     <Slide backgroundColor='background'>
-      <Heading>JQuery 👴🏻</Heading>
+      <Heading>
+        JQuery{' '}
+        <span
+          className='clickable'
+          onClick={() => dispatch(sectionActivate('JQuery 👴🏻'))}
+        >
+          👴🏻
+        </span>
+      </Heading>
       <iframe
         src='https://codesandbox.io/embed/jquery-counter-ffu3w?fontsize=14&hidenavigation=1&theme=dark'
         className='code-sandbox'

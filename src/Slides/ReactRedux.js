@@ -1,10 +1,22 @@
 import React from 'react'
 import { Heading, Slide, Notes } from 'spectacle'
+import { useDispatch } from 'react-redux'
+import { sectionActivate } from '../navigateSlice'
 
 export const ReactRedux = () => {
+  const dispatch = useDispatch()
+
   return (
     <Slide backgroundColor='background'>
-      <Heading>✨ React + Redux ✨</Heading>
+      <Heading>
+        React + Redux{' '}
+        <span
+          className='clickable'
+          onClick={() => dispatch(sectionActivate('React + Redux 🎉'))}
+        >
+          🎉
+        </span>
+      </Heading>
       <iframe
         src='https://codesandbox.io/embed/react-redux-counter-382mq?fontsize=14&hidenavigation=1&theme=dark'
         className='code-sandbox'
