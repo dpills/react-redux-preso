@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "./static/css/main.2ff95eee.chunk.css",
+    "main.js": "./static/js/main.1ba40a72.chunk.js",
+    "main.js.map": "./static/js/main.1ba40a72.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.01ec0eb7.js",
+    "runtime-main.js.map": "./static/js/runtime-main.01ec0eb7.js.map",
+    "static/js/2.67bd1f2a.chunk.js": "./static/js/2.67bd1f2a.chunk.js",
+    "static/js/2.67bd1f2a.chunk.js.map": "./static/js/2.67bd1f2a.chunk.js.map",
+    "index.html": "./index.html",
+    "static/css/main.2ff95eee.chunk.css.map": "./static/css/main.2ff95eee.chunk.css.map",
+    "static/js/2.67bd1f2a.chunk.js.LICENSE.txt": "./static/js/2.67bd1f2a.chunk.js.LICENSE.txt",
+    "static/media/cisco.2d82a092.svg": "./static/media/cisco.2d82a092.svg",
+    "static/media/react.9203bb85.svg": "./static/media/react.9203bb85.svg",
+    "static/media/redux.2584d504.svg": "./static/media/redux.2584d504.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.01ec0eb7.js",
+    "static/js/2.67bd1f2a.chunk.js",
+    "static/css/main.2ff95eee.chunk.css",
+    "static/js/main.1ba40a72.chunk.js"
+  ]
+}
